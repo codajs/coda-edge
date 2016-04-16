@@ -1,0 +1,6 @@
+var edge = require('..');
+
+var argv = process.argv.slice(2);
+edge.spawn(argv,{
+  stdio: 'inherit',
+});
